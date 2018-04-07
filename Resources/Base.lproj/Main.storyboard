@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura.ttc">
+            <string>Futura-Bold</string>
+            <string>Futura-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Uber_Clone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UBER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yES-Lh-J2A">
+                                <rect key="frame" x="149.66666666666666" y="28" width="113.99999999999997" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="gdY-JH-sPu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your username..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="avc-gw-Zrx">
+                                <rect key="frame" x="20" y="79" width="374" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your password..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x2R-0G-iOO">
+                                <rect key="frame" x="20" y="129" width="374" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pVn-CJ-oWz">
+                                <rect key="frame" x="182" y="192" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rider" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X05-Wa-DCN">
+                                <rect key="frame" x="121" y="197" width="53" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="c85-Hb-7rp"/>
+                                    <constraint firstAttribute="width" constant="53" id="m0W-R3-pSN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Driver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXA-4m-hyx">
+                                <rect key="frame" x="220" y="197" width="94" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4BP-ta-mh7">
+                                <rect key="frame" x="172.66666666666666" y="255" width="68" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="68" id="HKb-Zz-dQl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <state key="normal" title="Log In"/>
+                                <connections>
+                                    <action selector="logInOrSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xkM-uY-70w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUf-Jc-ZOF">
+                                <rect key="frame" x="100" y="298" width="215" height="35"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <state key="normal" title="Switch To Sign Up"/>
+                                <connections>
+                                    <action selector="changeSignUpMode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="als-yb-TZr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="x2R-0G-iOO" firstAttribute="top" secondItem="avc-gw-Zrx" secondAttribute="bottom" constant="20" id="CDT-62-MIH"/>
+                            <constraint firstItem="avc-gw-Zrx" firstAttribute="trailing" secondItem="x2R-0G-iOO" secondAttribute="trailing" id="DhJ-VR-Cwb"/>
+                            <constraint firstItem="yES-Lh-J2A" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="FH6-Jr-Mv3"/>
+                            <constraint firstItem="4BP-ta-mh7" firstAttribute="top" secondItem="pVn-CJ-oWz" secondAttribute="bottom" constant="32" id="HBb-dh-sJG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UXA-4m-hyx" secondAttribute="trailing" constant="80" id="KSk-Re-Apn"/>
+                            <constraint firstItem="X05-Wa-DCN" firstAttribute="firstBaseline" secondItem="UXA-4m-hyx" secondAttribute="firstBaseline" id="MTJ-CT-mK3"/>
+                            <constraint firstItem="4BP-ta-mh7" firstAttribute="centerX" secondItem="BUf-Jc-ZOF" secondAttribute="centerX" id="NZX-h9-KuR"/>
+                            <constraint firstItem="avc-gw-Zrx" firstAttribute="top" secondItem="yES-Lh-J2A" secondAttribute="bottom" constant="18" id="R2s-hf-e6K"/>
+                            <constraint firstItem="UXA-4m-hyx" firstAttribute="leading" secondItem="pVn-CJ-oWz" secondAttribute="trailing" constant="-11" id="Sd7-vx-xlK"/>
+                            <constraint firstItem="X05-Wa-DCN" firstAttribute="baseline" secondItem="UXA-4m-hyx" secondAttribute="baseline" id="TPv-VZ-xFF"/>
+                            <constraint firstItem="avc-gw-Zrx" firstAttribute="leading" secondItem="x2R-0G-iOO" secondAttribute="leading" id="TX2-W6-aqc"/>
+                            <constraint firstItem="pVn-CJ-oWz" firstAttribute="top" secondItem="x2R-0G-iOO" secondAttribute="bottom" constant="33" id="Wuy-PH-EMa"/>
+                            <constraint firstItem="x2R-0G-iOO" firstAttribute="centerX" secondItem="4BP-ta-mh7" secondAttribute="centerX" id="cer-Qy-DkJ"/>
+                            <constraint firstItem="yES-Lh-J2A" firstAttribute="centerX" secondItem="avc-gw-Zrx" secondAttribute="centerX" id="gDV-yt-0o1"/>
+                            <constraint firstItem="avc-gw-Zrx" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="h6x-Qr-CME"/>
+                            <constraint firstItem="X05-Wa-DCN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="101" id="kqY-zK-hnr"/>
+                            <constraint firstItem="BUf-Jc-ZOF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="oMq-yz-S8d"/>
+                            <constraint firstItem="pVn-CJ-oWz" firstAttribute="leading" secondItem="X05-Wa-DCN" secondAttribute="trailing" constant="8" symbolic="YES" id="qKo-M7-5Dd"/>
+                            <constraint firstItem="avc-gw-Zrx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="vVm-Yv-2YJ"/>
+                            <constraint firstItem="X05-Wa-DCN" firstAttribute="centerY" secondItem="pVn-CJ-oWz" secondAttribute="centerY" id="yRk-Cy-JVn"/>
+                            <constraint firstItem="BUf-Jc-ZOF" firstAttribute="top" secondItem="4BP-ta-mh7" secondAttribute="bottom" constant="8" symbolic="YES" id="zCA-H3-0bw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="logInSignUpButton" destination="4BP-ta-mh7" id="t8d-0C-Ols"/>
+                        <outlet property="passwordTextField" destination="x2R-0G-iOO" id="cZM-hB-u5C"/>
+                        <outlet property="switchModesButton" destination="BUf-Jc-ZOF" id="dtX-oA-Tti"/>
+                        <outlet property="usernameTextField" destination="avc-gw-Zrx" id="frJ-lI-Q1z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-98.400000000000006" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>
